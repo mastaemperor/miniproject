@@ -1,0 +1,31 @@
+.form-div {
+    width: 100%;
+    min-height: calc(100vh - 200px);
+    padding: 50px;
+}
+.form-div form {
+    width: 60%;
+    margin: auto;
+    box-shadow: 0 30px 45px rgb(0, 0, 0);
+    padding: 25px;
+    border-radius: 25px;
+}
+.form-div form legend {
+    text-align: center;
+}
+.form-div .form-group {
+    margin: 15px 0;
+}
+
+@media screen and (max-width: 768px) {
+    .form-div form {
+        width: 90%;
+        font-size: 14px;
+    }
+    .form-div form legend {
+        font-size: 14px;
+    }
+    .form-div for input {
+        font-size: 14px;
+    }
+}
